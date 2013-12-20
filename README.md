@@ -7,7 +7,9 @@ Using multipeer connectivity for communication, and [LumberjackConsole](https://
 
 ## Usage
 
+DDMultipeerConsole uses the view controller & assistant helpers built into the MultipeerConnectivity framework.  Simply choose to 'Attach to App' when a nearby app is running that has DDMultipeerLogger integrated.
 
+![Screenshot](ddmultipeerconsole.gif)
 
 ## Contact
 
