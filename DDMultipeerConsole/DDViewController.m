@@ -2,9 +2,6 @@
 //  DDViewController.m
 //  DDMultipeerConsole
 //
-//  Created by PJ Gray on 12/20/13.
-//  Copyright (c) 2013 Say Goodnight Software. All rights reserved.
-//
 
 #import "DDViewController.h"
 #import "NBULog.h"
@@ -25,7 +22,6 @@
     [super viewDidLoad];
 
     _myDevicePeerId = [[MCPeerID alloc] initWithDisplayName:[[UIDevice currentDevice] name]];
-    
     
     _session = [[MCSession alloc] initWithPeer:_myDevicePeerId securityIdentity:nil encryptionPreference:MCEncryptionNone];
     _session.delegate = self;
